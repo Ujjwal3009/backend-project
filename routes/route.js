@@ -4,6 +4,11 @@ const transactionController = require('../controllers/transactionController')
 const currencyController = require('../controllers/currencyController')
 const userController = require('../controllers/userController')
 
+
+router.get("/",(req,res,)=>{
+    res.status(200).send({ msg: "Please try listed endpoints", status: true })
+    
+})
 router.get('/transaction/:address', transactionController.transaction)
 router.post('/register', transactionController.registerAddress)
 
