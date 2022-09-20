@@ -1,7 +1,6 @@
 # Backend api
 
 ## Description
-* # KoinxAssignment
 
 Develop a Server Side Application to fetch Crypto Transactions of a user
 Mandatory Tasks:-
